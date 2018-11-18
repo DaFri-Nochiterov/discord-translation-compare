@@ -1,0 +1,16 @@
+{
+  "name": "discord-translation-compare",
+  "version": "0.0.1",
+  "description": "Compares old and current Discord translations via provided localization files and generates reports or just shows the stats",
+  "main": "modes/stats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DaFri_Nochiterov",
+  "license": "MIT",
+  "dependencies": {
+    "diff": "^3.5.0",
+    "full-icu": "^1.2.1"
+  },
+  "devDependencies": {}
+}

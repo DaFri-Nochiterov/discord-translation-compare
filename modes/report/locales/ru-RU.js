@@ -14,8 +14,8 @@ module.exports = {
 	},
 	strings: plural({
 		one: "# строка",
-		many: "# строк",
-		other: "# строки"
+		few: "# строки",
+		other: "# строк",
 	}),
 	summary: {
 		totalBefore: "Всего до",
@@ -38,18 +38,18 @@ module.exports = {
 		goTo: replaceable("([Перейти →]({link}))"),
 		additions: plural({
 			one: "# добавление",
-			many: "# добавлений",
-			other: "# добавления"
+			few: "# добавления",
+			other: "# добавлений"
 		}),
 		changes: plural({
 			one: "# изменение",
-			many: "# изменений",
-			other:" # изменения"
+			few: "# изменения",
+			other:" # изменений"
 		}),
 		deletions: plural({
 			one: "# удаление",
-			many: "# удалений",
-			other: "# удаления"
+			few: "# удаления",
+			other: "# удалений"
 		}),
 		original: "Оригинальная строка",
 		translation: "Перевод",
